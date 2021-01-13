@@ -1,16 +1,21 @@
 @page "/counter"
 
-<h1>Counter</h1>
+<h1>Suma, Resta, Multiplicación </h1>
 
-<p>Current count: @currentCount</p>
+<p>Suma: @Suma</p>
+<p>Resta: @Resta</p>
+<p>Multiplicación: @Multiplicar</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="Calcular">Calcular</button>
 
 @code {
-    private int currentCount = 0;
+   
+    float PrimerNumero = 10, SegundoNumero = 2, Suma = 0, Resta = 0, Multiplicar = 0;
 
-    private void IncrementCount()
+    private void Calcular()
     {
-        currentCount++;
+        Math.Round(Suma = PrimerNumero + SegundoNumero, 2);
+        Math.Round(Resta = PrimerNumero - SegundoNumero, 2);
+        Math.Round(Multiplicar = PrimerNumero * SegundoNumero, 2);
     }
 }
