@@ -91,7 +91,7 @@ using SumaMultRestaBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\Victor\Desktop\1-2021\Programacion Aplicada II\SumaMultRestaBlazor\Pages\Counter.razor"
+#line 12 "C:\Users\Victor\Desktop\1-2021\Programacion Aplicada II\SumaMultRestaBlazor\Pages\Counter.razor"
        
    
     float PrimerNumero = 10, SegundoNumero = 2, Suma = 0, Resta = 0, Multiplicar = 0;
